@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+.Artist-img-container {
+	position: relative;
+}
+.Artist-img {
+	width: 100%;
+	height: 60%;
+	
+}
+
+.Artist-thumbnail {
+	max-width: 5rem;
+	margin-left: 1px;
+}
+
+.Artist-thumbnail:hover {
+	cursor: pointer;
+}
+
+.Artist-info {
+	font-family: 'Montserrat';
+}
+
+.Artist-banner {
+	width: 100%;
+	position: sticky;
+	top: 0;
+}
+
+.Artist-icon {
+	width: 2rem;
+	margin-right: 1rem;
+	box-shadow: 5px 5px 5px black;
+}
+.Artist-icon-container {
+	margin-top: -2.5rem;
+	text-align: right;
+}
+
+.Artist-biography {
+	position: relative;
+}
+
+.Artist-failed-query {
+	color: white;
+	text-shadow: 5px 5px 5px black;
+}
+.Artist-link {
+	float: right;
+}
+
+.Artist-modal {
+	margin: auto;
+	margin-top: 5rem;
+}
+
+.Artist-modal {
+	display: flex;
+	flex-wrap: wrap;
+	overflow-y: scroll;
+	border-radius: 5px;
+}
+
+.Artist-modal-text {
+	font-family: 'Montserrat';
+	font-weight: 700;
+	text-align: center;
+	margin: auto;
+	padding-top: 1rem;
+	color: white;
+	text-shadow: 5px 5px 5px black;
+}
+
+.Artist-album-img {
+	width: 4rem;
+	height: 5rem;
+	margin: 0.5rem;
+	border-radius: 5px;
+}
+.Artist-album-img:hover {
+	cursor: pointer;
+}
+
+.Artist-videos {
+	width: 100%;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+.Artist-video {
+	padding: 1rem;
+	margin: 1rem;
+}
+
+@media screen and (max-width: 855px) {
+	.Artist-img {
+		height: 50%;
+	}
+	.Artist-thumbnail-container {
+		display: flex;
+		overflow-x: scroll;
+	}
+	.Artist-thumbnail {
+		object-fit: contain;
+	}
+}
+
+@media screen and (min-width: 768px) {
+	.Artist-img {
+		height: 90%;
+	}
+	.Artist-album-img {
+		width: 6rem;
+		height: 6rem;
+	}
+}

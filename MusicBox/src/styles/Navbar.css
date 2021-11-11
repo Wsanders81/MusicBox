@@ -1,0 +1,18 @@
+
+
+.Navbar {
+    
+    height: 3rem; 
+}
+
+.Navbar a {
+    text-decoration: none;
+    color: white; 
+    font-weight: 500; 
+}
+
+.Navbar img {
+    width: 1rem; 
+    margin-left: 0.1rem; 
+    
+}

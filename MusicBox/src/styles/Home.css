@@ -1,0 +1,35 @@
+.Home {
+	background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.5)),
+		url('../assets/images/anthony-delanoix-hzgs56Ze49s-unsplash.jpg');
+	background-size: cover;
+	background-position: 50% 50%;
+}
+
+.Home-header {
+	padding-top: 7rem;
+	color: white;
+	text-shadow: 5px 5px 5px black;
+	padding-bottom: 0.5rem;
+     
+}
+
+.Home-rotating-text {
+	color: white;
+	text-shadow: 5px 5px 5px black;
+	padding: 1rem;
+}
+
+.Home-textfield {
+	background-color: rgba(555, 555, 555, 0.7);
+	width: 80%;
+}
+
+.Home-button-container {
+	margin-top: 1rem;
+}
+
+@media screen and (max-width: 768px) {
+	.Home-header {
+		font-size: 3rem;
+	}
+}
